@@ -15,6 +15,7 @@ WriteMakefile(
     BINARY_LOCATION	=> 'x86/Module-CryptSource.tar.gz',
 
     PREREQ_PM		=> {
+	'Test::More'		=> '0',
 	'Storable'		=> '0',
 	'MIME::Base64'		=> '0',
 	'Term::ReadKey'		=> '0',
